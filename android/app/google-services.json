@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "445957526566",
+    "firebase_url": "https://izaan-testing-ml.firebaseio.com",
+    "project_id": "izaan-testing-ml",
+    "storage_bucket": "izaan-testing-ml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445957526566:android:54bf97346df8158b7782e7",
+        "android_client_info": {
+          "package_name": "com.firebasemlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445957526566-8u7naadlrnpvsa1shfhhq9u8r8lhiu7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB1fu80Aztm53x0EV50N_6b7MEPFymOfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445957526566-8u7naadlrnpvsa1shfhhq9u8r8lhiu7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
