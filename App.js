@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
-import Home from './src/screens/Home';
+import FaceDetection from './src/screens/FaceDetection';
 
 const App = () => {
   console.disableYellowBox = true;
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <StatusBar backgroundColor="white" barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <Home />
+        <FaceDetection />
       </SafeAreaView>
     </>
   );

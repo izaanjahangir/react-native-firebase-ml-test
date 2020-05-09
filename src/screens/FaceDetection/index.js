@@ -7,7 +7,7 @@ import Button from '../../components/Button';
 import Loading from '../../components/Loading';
 
 import style from './style';
-function Home() {
+function FaceDetection() {
   const [path, setPath] = useState('');
   const [uri, setUri] = useState('');
   const [smiling, setSmiling] = useState(false);
@@ -112,4 +112,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default FaceDetection;
