@@ -7,7 +7,7 @@ import Button from '../../components/Button';
 import Loading from '../../components/Loading';
 
 import style from './style';
-function ImageLabelling() {
+function TextRecognition() {
   const [path, setPath] = useState('');
   const [uri, setUri] = useState('');
   // const [smiling, setSmiling] = useState(false);
@@ -50,18 +50,19 @@ function ImageLabelling() {
 
   async function processImage(localPath) {
     try {
+      console.log('text');
       setLoading('Analyzing image');
 
-      const labels = await vision().imageLabelerProcessImage(localPath, {
-        confidenceThreshold: 0.9,
-      });
+      const processed = await vision().textRecognizerProcessImage(localPath);
 
-      console.log('labels =>', labels);
+      console.log('Found text in document: ', processed.text);
+      console.log('processed: ', processed);
 
-      labels.forEach((label) => {
-        console.log('Service labelled the image: ', label.text);
-        console.log('Confidence in the label: ', label.confidence);
-      });
+      // processed.blocks.forEach((block) => {
+      //   console.log('Found block with text: ', block.text);
+      //   console.log('Confidence in block: ', block.confidence);
+      //   console.log('Languages found in block: ', block.recognizedLanguages);
+      // });
     } catch (e) {
       console.log('E =>', e);
     }
@@ -94,4 +95,4 @@ function ImageLabelling() {
   );
 }
 
-export default ImageLabelling;
+export default TextRecognition;
