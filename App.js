@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
-import ImageLabelling from './src/screens/ImageLabelling';
+import SmartReplies from './src/screens/SmartReplies';
 
 const App = () => {
   console.disableYellowBox = true;
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <StatusBar backgroundColor="white" barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <ImageLabelling />
+        <SmartReplies />
       </SafeAreaView>
     </>
   );

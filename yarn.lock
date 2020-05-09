@@ -1124,6 +1124,11 @@
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
+"@react-native-firebase/ml-natural-language@^6.7.1":
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/ml-natural-language/-/ml-natural-language-6.7.1.tgz#ca036ef0ceaf79f1fc3dbab12208f1f41a58e29c"
+  integrity sha512-50Tp6DWixCPusNUENlmhw+QCDm7HPbhjtZzg74GKyIVe+sp7QVq2cuDmn3jXLdrmiyRgS+TGcLPEpx69975JeQ==
+
 "@react-native-firebase/ml-vision@^6.7.1":
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/ml-vision/-/ml-vision-6.7.1.tgz#c79e89299ed8d5c76825a0c57ea0f7d1091a8dd5"
